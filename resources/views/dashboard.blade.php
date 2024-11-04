@@ -26,7 +26,7 @@
                     <li><a href="#" class="block py-2 px-3 md:p-0 hover:text-blue-600 transition-all duration-500 ease-out">About</a></li>
                     <li><a href="#" class="block py-2 px-3 md:p-0 hover:text-blue-600 transition-all duration-500 ease-out">Services</a></li>
                     <li><a href="#" class="block py-2 px-3 md:p-0 hover:text-blue-600 transition-all duration-500 ease-out">Pricing</a></li>
-                    <li><a href="#" class="block py-2 px-3 md:p-0 hover:text-blue-600 transition-all duration-500 ease-out">Contact</a></li>
+                    <li><a href="#" class="block py-2 px-3 md:p-0 hover:text-blue-600 transition-all duration-500 ease-out">Login</a></li>
                 </ul>
             </div>
         </div>
