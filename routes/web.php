@@ -19,9 +19,19 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
+Route::get('/ticket', function(){
+    return view('tiket');
+});
+
 // Route::get('/', [ProfileController::class, 'dashboard'])->name('dashboard');
 Route::group(['namespace' => 'App\Http\Controllers'], function() {
-    Route::get('/', 'HomeController@index')->name('dashboard');
+    Route::get('/', 'TicketController@index')->name('dashboard');
+    Route::get('/ticket/{id}', 'TicketController@tiket')->name('TicketDetail');
+    Route::get('/buy/{id}', 'TicketController@buy')->name('BuyTicket');
+    Route::post('/buy/confirm/{id}', 'TicketController@store')->name('BuyConfirm');
+    Route::get('/buy/confirm/user/{id}', 'TicketController@confirm')->name('BuyConfirmByUser');
+    Route::post('/items/store-confirmed', 'TicketController@storeconfirmed')->name('storeConfirmedTicket');
+    
 
     Route::group(['middleware' => ['guest']], function(){
         Route::get('/register', 'RegisterController@show')->name('register.show');

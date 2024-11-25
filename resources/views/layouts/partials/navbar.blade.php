@@ -46,7 +46,7 @@
       </button>
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul class="font-medium flex flex-col md:flex-row md:space-x-8">
-              <li><a href="#" class="block py-2 px-3 md:p-0 hover:text-blue-600 transition-all duration-500 ease-out">Home</a></li>
+              <li><a href="/" class="block py-2 px-3 md:p-0 hover:text-blue-600 transition-all duration-500 ease-out">Home</a></li>
               <li><a href="#" class="block py-2 px-3 md:p-0 hover:text-blue-600 transition-all duration-500 ease-out">About</a></li>
               <li><a href="#" class="block py-2 px-3 md:p-0 hover:text-blue-600 transition-all duration-500 ease-out">Services</a></li>
               <li><a href="#" class="block py-2 px-3 md:p-0 hover:text-blue-600 transition-all duration-500 ease-out">Pricing</a></li>
